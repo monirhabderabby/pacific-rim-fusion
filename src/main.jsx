@@ -8,17 +8,17 @@ import HomeAfter from './pages/HomeAfter/HomeAfter';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Home/>
+    path: "/",
+    element: <Home />,
   },
   {
     path: '/homeafter',
-    element: <HomeAfter/>
+    element: <HomeAfter />
   },
 ]);
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router = {router}/>
-  </StrictMode>,
-)
+    <RouterProvider router={router} />
+  </StrictMode>
+);

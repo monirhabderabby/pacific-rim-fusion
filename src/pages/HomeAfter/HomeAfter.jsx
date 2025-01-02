@@ -13,8 +13,8 @@ const products = [
 
 export default function HomeAfter() {
   return (
-    <div>
-      <div className='bg-primary-light'>
+    <div className='bg-primary-light'>
+      <div className=''>
         <div className="flex flex-col items-center">
           <div className="flex flex-col self-stretch w-full max-md:max-w-full">
             <h1 className="text-4xl font-semibold leading-tight text-center text-green-800 max-md:max-w-full">
@@ -29,7 +29,7 @@ export default function HomeAfter() {
               <div className="flex shrink-0 w-3 h-1 bg-stone-600 bg-opacity-30" />
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-8 items-center mt-10 w-full max-md:max-w-full">
+          <div className="grid grid-cols-4 gap-4 items-center mt-10 w-full max-md:max-w-full">
             {products.map((product, index) => (
               <FeaturedProducts key={index} {...product} />
             ))}
