@@ -1,25 +1,19 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./index.css";
-import Home from "./pages/Home/home";
-import BillingPage from "./pages/Billing/BillingPage";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home/home';
+
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/bill",
-    element: <BillingPage />,
+    path: '/',
+    element: <Home/>
   },
 ]);
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
-);
-
-
+    <RouterProvider router = {router}/>
+  </StrictMode>,
+)
