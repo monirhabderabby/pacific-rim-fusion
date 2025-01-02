@@ -15,7 +15,7 @@ export function FormInput(props) {
         className="flex gap-2.5 py-4 mt-2 w-full rounded-lg border border-solid border-zinc-400 min-h-[51px] max-md:max-w-full"
         aria-required={required}
       />
-      {/* zaerfg */}
+    
     </div>
   );
 }
