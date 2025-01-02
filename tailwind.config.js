@@ -12,6 +12,7 @@ export default {
           "black-light": "#1A1A1A",
         },
       },
+
     },
   },
   plugins: [],
