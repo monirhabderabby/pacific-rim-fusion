@@ -8,7 +8,7 @@ function CreditCardForm() {
         id="cardholderName"
         type="text"
         placeholder="Cardholder Name"
-        className="flex-1 shrink self-stretch px-4 py-4 w-full rounded-lg border border-solid border-zinc-400 min-h-[48px] max-md:max-w-full"
+        className="flex-1 shrink self-stretch px-4 py-4 w-full rounded-lg border border-solid border-zinc-400 min-h-[48px] max-md:max-w-full text-black"
       />
       
       <label htmlFor="cardNumber" className="sr-only">Card Number</label>
@@ -16,7 +16,7 @@ function CreditCardForm() {
         id="cardNumber"
         type="text"
         placeholder="Card Number"
-        className="flex-1 shrink self-stretch px-4 py-4 mt-4 w-full rounded-lg border border-solid border-zinc-400 min-h-[48px] max-md:max-w-full"
+        className="flex-1 shrink self-stretch px-4 py-4 mt-4 w-full rounded-lg border border-solid border-zinc-400 min-h-[48px] max-md:max-w-full text-black"
       />
       
       <div className="flex flex-wrap gap-4 items-start mt-4 w-full whitespace-nowrap max-md:max-w-full">
@@ -26,7 +26,7 @@ function CreditCardForm() {
             id="expDate"
             type="text"
             placeholder="Exp.Date"
-            className="w-full px-4 py-4 rounded-lg border border-solid border-zinc-400 min-h-[48px]"
+            className="w-full px-4 py-4 rounded-lg border border-solid border-zinc-400 min-h-[48px] text-black"
           />
         </div>
         
@@ -36,7 +36,7 @@ function CreditCardForm() {
             id="cvv"
             type="text"
             placeholder="CVV"
-            className="w-full px-4 py-4 rounded-lg border border-solid border-zinc-400 min-h-[48px]"
+            className="w-full px-4 py-4 rounded-lg border border-solid border-zinc-400 min-h-[48px] text-black"
           />
         </div>
       </div>

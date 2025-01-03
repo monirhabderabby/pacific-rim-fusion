@@ -43,3 +43,5 @@ export function BillingForm() {
     </div>
   );
 }
+
+//<label for="fullName" class="max-md:max-w-full">Full Name <span class="text-red-600">*</span></label>
