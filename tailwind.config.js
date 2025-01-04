@@ -12,6 +12,18 @@ export default {
           "black-light": "#1A1A1A",
         },
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          lg: "2rem",
+        },
+        screens: {
+          sm: "100%",
+          md: "100%",
+          lg: "1280px",
+        },
+      },
     },
   },
   plugins: [],
