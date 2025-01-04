@@ -3,7 +3,7 @@ import React from 'react'
 export default function FeaturedProducts(props) {
     const { image, price, originalPrice } = props;
     return (
-        <div className="flex overflow-hidden relative flex-col grow shrink self-stretch p-3 my-auto bg-white rounded-xl border border-gray-200 border-solid min-w-[260px] w-[216px]">
+        <div className="flex overflow-hidden relative flex-col grow shrink self-stretch p-3 my-auto mx-auto bg-white rounded-xl border border-gray-200 border-solid min-w-[260px] w-[216px]">
             <img
                 loading="lazy"
                 src={image}
