@@ -7,8 +7,8 @@ import Cart from "./pages/Cart/Cart";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Cart />,
-  },
+    element: <Home />,
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
@@ -16,3 +16,5 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>
 );
+
+
